@@ -27,19 +27,19 @@ YMG-1, iki ana uç nokta içerir:
 2. **Servis Kurulumu (Debian)**
 YMG-1 uygulamasını bir Debian sistemi üzerine servis olarak kurmak için aşağıdaki adımları takip edebilirsiniz:
 
-1.Uygulama Dosyalarını Yerleştirme:
+a. **Uygulama Dosyalarını Yerleştirme:**
 
 YMG-1 uygulama dosyalarını /opt/ymg1/ dizinine yerleştirin.
 
-2.Systemd Servisi Oluşturma:
+b. **Systemd Servisi Oluşturma:**
 
 Aşağıdaki içeriği kullanarak bir ymg1.service dosyası oluşturun ve /lib/systemd/system/ dizinine yerleştirin
 
-3.Servisi Başlatma ve Etkinleştirme:
+c. **Servisi Başlatma ve Etkinleştirme:**
 
 Servisi başlatmak ve etkinleştirmek için aşağıdaki komutları kullanabilirsiniz:
 
-``sudo systemctl daemon-reload``
-``sudo systemctl start ymg1.service``
-``sudo systemctl enable ymg1.service``
-# restfullAPI-flask
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start ymg1.service
+sudo systemctl enable ymg1.service

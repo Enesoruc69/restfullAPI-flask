@@ -1,0 +1,5 @@
+#!/bin/bash
+pip3 install -r /opt/ymg1/requirements.txt
+systemctl daemon-reload
+systemctl enable ymg1.service
+systemctl start ymg1.service

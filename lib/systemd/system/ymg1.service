@@ -1,0 +1,12 @@
+[Unit]
+Description=YMG-1 Flask Servisi
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/ymg1
+ExecStart=/usr/bin/python3 /opt/ymg1/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

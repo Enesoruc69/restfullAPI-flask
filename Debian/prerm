@@ -1,0 +1,4 @@
+#!/bin/bash
+systemctl stop ymg1.service
+systemctl disable ymg1.service
+systemctl daemon-reload

@@ -1,0 +1,5 @@
+Package: ymg1
+Version: 1.0
+Architecture: all
+Maintainer: [Enes] <[orucenes935@gmail.com]>
+Description: YMG-1 Flask tabanlı RESTful API uygulaması.
